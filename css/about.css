@@ -1,0 +1,99 @@
+ .section-header .section-title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .section-header .section-description {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #777;
+    font-style: italic;
+  }
+  
+  .section-header .section-divider {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-bottom: 20px;
+  }
+
+
+ /* Product Advanced Featuress Section
+--------------------------------*/
+#advanced-features {
+  overflow: hidden;
+  background-color: #1a1a1d;
+}
+
+#advanced-features .features-row {
+  padding: 60px 0 30px 0;
+}
+
+#advanced-features h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+#advanced-features h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+#advanced-features p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#advanced-features i {
+  color: #666666;
+  font-size: 64px;
+  transition: 0.5s;
+  float: left;
+  padding: 0 15px 0px 0;
+  line-height: 1;
+}
+
+#advanced-features i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#advanced-features .advanced-feature-img-right {
+  max-width: 100%;
+  float: right;
+  padding: 0 0 30px 30px;
+}
+
+#advanced-features .advanced-feature-img-left {
+  max-width: 100%;
+  float: left;
+  padding: 0 30px 30px 0;
+}
+
+@media (min-width: 768px) {
+  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+    max-width: 100%;
+    float: none;
+    padding: 0 0 30px 0;
+  }
+}
+
