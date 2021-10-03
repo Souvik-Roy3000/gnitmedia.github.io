@@ -905,7 +905,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 4px 4px 0 0;
   margin: 0;
 }
-
+#portfolio .portfolio-item figure img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 #portfolio .portfolio-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
